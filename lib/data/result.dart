@@ -4,7 +4,7 @@ enum DataPolicy{
 }
 
 enum Status{
-  ok, fail
+  ok, fail, empty
 }
 
 class Result<T> {

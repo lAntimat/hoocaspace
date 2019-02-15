@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hoocaspace/other/color_constants.dart';
 
-class Style {
+class TextStyleConst {
   static final baseTextStyle = const TextStyle(
     fontFamily: 'Poppins'
   );
@@ -16,6 +17,12 @@ class Style {
     color: Colors.white,
     fontSize: 18.0,
     fontWeight: FontWeight.w600
+  );
+
+  static final subTitleTextStyle = baseTextStyle.copyWith(
+      color: ColorConstants.secondWhite,
+      fontSize: 14.0,
+      fontWeight: FontWeight.w500
   );
   static final headerTextStyle = baseTextStyle.copyWith(
     color: Colors.white,
